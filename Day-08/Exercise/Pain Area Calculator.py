@@ -13,3 +13,4 @@ width_of_wall = float(input("Enter the width of the wall: "))
 
 # Call the function with the user-provided height and width, and a set coverage value of 5
 print(pain_calculator(height_of_wall, width_of_wall, coverage=5))
+# going to the next one
