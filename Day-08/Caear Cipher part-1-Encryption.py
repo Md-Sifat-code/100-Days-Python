@@ -38,7 +38,7 @@ def decrypt(plain_text,number):
 while True:
     want = input("You want to play?\n")
     if want !="yes":
-        print("Good Bye")
+        print("Good Bye. Hope you play again")
     else:
         text = input("Type your message:\n").lower()
         shift = int(input("Type the shift number :\n"))
