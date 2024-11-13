@@ -41,3 +41,16 @@ print(travel_log[1]["total_visits"])    # Output: 5
 # In this example, `travel_log` is a list that contains dictionaries. Each dictionary
 # represents a country with keys such as "country", "cities_visited", and "total_visits".
 # The "cities_visited" key has a nested list to store multiple cities visited in that country.
+
+# Define the new dictionary you want to add
+new_country = {
+    "country": "Japan",
+    "cities_visited": ["Tokyo", "Kyoto", "Osaka"],
+    "total_visits": 3
+}
+
+# Add the new dictionary to the travel_log list
+travel_log.append(new_country)
+
+# Print travel_log to verify the addition
+print(travel_log)
