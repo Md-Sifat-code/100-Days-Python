@@ -44,3 +44,4 @@ def calculator():
             calculator()
 
 calculator()
+#added the all part as recursion based
